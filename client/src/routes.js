@@ -9,10 +9,8 @@ export default function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/usuarios" exact component={Usuarios} />
+                <Route path="/" exact component={Usuarios} />
                 <Route path="/usuarios/cadastrar" exact component={UsuariosCadastrar} />
-
-
             </Switch>
         </BrowserRouter>
     )

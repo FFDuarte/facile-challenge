@@ -4,7 +4,7 @@ Os dados são enviados pelo formaluario na parte de cadastro.
 O cryptografado e o 'comentario' que e feito pelo  back-end  src\models\usuario.model.js
 O dado e resgatado pelo formulario no front-end que se encarrega de descryptografar o dado
 
-## npm run dev -> PARA INICIAR  O PROJETO
+## npm run start -> PARA INICIAR  O PROJETO
 
 ## pasta client -> SISTEMA PRINCIPAL
 

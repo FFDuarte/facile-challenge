@@ -36,7 +36,7 @@ const [comentario, setComentario] = useState('');
       const response = await api.post('http://localhost:5000/api/usuarios' , data);
 
       if(response.status===200){
-        window.location.href=('/usuarios');
+        window.location.href=('/');
       }else{
         alert('erro ao cadastrar o usuario');
       }

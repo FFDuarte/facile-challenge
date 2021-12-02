@@ -53,7 +53,7 @@ function Listagem() {
     if(window.confirm("Deseja realmente deletar o usuario ? ")){
       var result = await api.delete('http://localhost:5000/api/usuarios/'+ id);
       if(result.status === 200){
-        window.location.href = '/usuarios' ;
+        window.location.href = '/' ;
       }else{
         alert('Ocorreu um erro! Tente novamente.')
       }
